@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>  
+    
+    <script src="js/jquery-3.7.1.min.js"></script>  
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/mycss.css"/>
+    <script src="js/myjs.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-secondary navbar-dark p-2 " id="mother">		
+		
+		
+        <a class="navbar-toggler" href="#"><img src="./media/De02_small_Logo.jpg" style="width:100px;"></a>
+        <a class="navbar-brand" href="#"><img src="./media/De02_full_Logo.png" style="width:100px;"></a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar_1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+   
+        
+        
+        <!-- Menu 1 -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar_1"  data-bs-parent="#mother">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item ms-auto">
+                    <a class="nav-link" href="#" style="color:black;">Shop By Category</a>
+                </li>
+                <li class="nav-item dropdown ms-auto"> <!-- menu ghép -->
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color:black;">
+                        Shop By OCCASION <!-- Nhãn menu hiển thị trên menu chính  -->
+                    </a>
+                    <div class="dropdown-menu"> <!-- các menu con -->
+                        <a class="dropdown-item text-end text-md-start" href="#" style="color:black;">Quan ao nam</a>
+                        <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                        <a class="dropdown-item text-end text-md-start" href="#" style="color:black;">Quan ao nu</a>
+                        <div class="dropdown-divider"></div> <!-- Đường phân cách -->
+                        <a class="dropdown-item text-end text-md-start" href="#"  style="color:black;">Mục cuối cùng</a>
+                    </div>
+                </li>
+                <li class="nav-item ms-auto">
+                    <a class="nav-link " href="#"  style="color:black;">CORPORATE SERVICES</a>
+                </li>  
+                <li class="nav-item ms-auto"> 
+                    <a class="nav-link " href="#"  style="color:black;">VISIT OUR STORES</a>
+                </li>  
+                <li class="nav-item ms-auto"> 
+                    <a class="nav-link " href="#"  style="color:black;">CONTACT US</a>
+                </li>   
+            </ul>
+        </div> 
+    </nav>
+    <div id="carouselExample" class="carousel slide carousel-fade w-75 mx-auto " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <!--- Phần chính, danh sách các hình trong slide --->
+        <div class="carousel-inner ">
+          <div class="carousel-item active  ">
+            <img src="./media/De02_Slider_01.jpg" class="imgSize d-block"  alt="img01">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./media/De02_Slider_02.jpg" class="imgSize d-block" alt="img02">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./media/De02_Slider_03.jpg" class="imgSize d-block" alt="img03">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div> 
+    <div class="container p-2">
+    <div class="d-flex flex-wrap ">
+        <div class="card col-md-2 col-6">
+            <!-- Card content -->
+            <img src="./media/De02_01.jpg">
+        </div>
+        <div class="card col-md-2 col-6">
+            <!-- Card content -->
+            <img src="./media/De02_02.jpg">
+        </div>
+        <div class="card col-md-2 col-12 offset-0 offset-md-0">
+            <!-- Card content -->
+            <img src="./media/De02_03.jpg">
+        </div>
+        <div class="card col-md-2 col-6 ">
+            <!-- Card content -->
+            <img src="./media/De02_04.jpg">
+        </div>
+        <div class="card col-md-2 col-6 ">
+            <!-- Card content -->
+            <img src="./media/De02_05.jpg">
+        </div>
+    </div>
+</div>
+
+<div class="d-flex flex-wrap">
+    <div class=" col-md-4 col-12">
+        <!-- Card content -->
+        <h1>Florist's Choice </h1>
+        <p>from 35 to 400</p>
+        <p>Set your own budget and let our tanlented ficrists create the most amazing composition for your chosen occsesign or </p>
+        <button style="background-color:black; color:white;">Order Now</button>
+    </div>
+    <div class=" col-md-4 col-12 offset-0 offset-md-0">
+        <div id="carouselExample_1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <!--- Nút chọn hình -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+    
+            <!--- Phần chính, danh sách các hình trong slide --->
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <img src="./media/De02_Big_01.jpg" class="imgSize d-block" style="width:100%;" alt="img01">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./media/De02_Big_02.jpg" class="imgSize d-block" style="width:100%;" alt="img02">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./media/De02_05.jpg" class="imgSize d-block" style="width:100%;" alt="img03">
+                
+              </div>
+            </div>
+            
+            <!--- 2 nút chọn hình tiếp theo và quay lại hình trước đó --->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample_1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample_1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div> 
+    </div>
+    <div class=" col-md-4 col-12 offset-0 offset-md-0">
+        <div id="carouselExample_2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <!--- Nút chọn hình -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+    
+            <!--- Phần chính, danh sách các hình trong slide --->
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <img src="./media/De02_Big_01.jpg" class="imgSize d-block" style="width:100%;" alt="img01">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./media/De02_Big_02.jpg" class="imgSize d-block" style="width:100%;" alt="img02">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./media/De02_05.jpg" class="imgSize d-block" style="width:100%;" alt="img03">
+                
+              </div>
+            </div>
+            
+            <!--- 2 nút chọn hình tiếp theo và quay lại hình trước đó --->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample_2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample_2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div> 
+    </div>
+</div>
+<div class="container-fluid " style="background-color: #626264;  padding: 20px 0px 20px 0px; color: white;">
+    <div class="row">
+        <div class="col-md-4 col-12 offset-5 offset-md-0 ">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+</div>
+<div class=" col-md-8 col-12 offset-2 offset-md-0 ">
+    <p style="color:chocolate; font-weight:bold; ">Designed by NGUYEN MANH TU-63133268 2023</p>
+</div>
+
+                </div>
+</div>
+</body>
+</html>
